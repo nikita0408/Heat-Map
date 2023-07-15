@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Heat Map</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Heat Map</h1>
+
+        <form id="customerForm">
+            <label for="customerID">Customer ID:</label>
+            <input type="text" id="customerID" name="customerID" required>
+
+            <button type="submit">Generate Heat Map</button>
+        </form>
+
+        <div id="heatMapContainer">
+            <h2>Heat Map</h2>
+            <div id="heatMap"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
